@@ -80,34 +80,34 @@ header h1 {
 }
 
 .big-card:nth-child(4) {
-    background-image: url("https://cdn.discordapp.com/attachments/899678841155497996/1033445600106119218/Nakoma_bg.PNG");
+    background-image: url("../img/Nakoma_bg.PNG");
     transform: rotate(2deg);
 }
   
 .big-card:nth-child(6) {
-    background-image: url("https://cdn.discordapp.com/attachments/899678841155497996/1043854314466189322/nakoma.png");
+    background-image: url("../img/nakoma.png");
     transform: translateX(-6%) rotate(-3deg);
 }
   
 .big-card:nth-child(8) {
-    background-image: url("https://cdn.discordapp.com/attachments/899678841155497996/1049722861478227989/C4D558DE-8B25-4274-B615-847862A4A7E4.png");
+    background-image: url("../img/C4D558DE-8B25-4274-B615-847862A4A7E4.png");
     transform: translate(10%, 3%) rotate(5deg);
 }
 
 .little-card:nth-child(1) {
-    background-image: url("https://cdn.discordapp.com/attachments/899678841155497996/1073745915493482698/Nako_BG.png");
+    background-image: url("../img/Nako_BG.png");
 }
   
 .little-card:nth-child(3) {
-    background-image: url("https://cdn.discordapp.com/attachments/899678841155497996/1019585226135048272/20220914_055141.jpg");
+    background-image: url("../img/20220914_055141.jpg");
 }
   
 .little-card:nth-child(5) {
-    background-image: url("https://cdn.discordapp.com/attachments/899678841155497996/1023671314927587439/Mini_nako.jpg");
+    background-image: url("../img/Mini_nako.jpg");
 }
   
 .little-card:nth-child(7) {
-    background-image: url("https://cdn.discordapp.com/attachments/899678841155497996/1073663147841425569/nekmek_bday_incident_20230210161119.png");
+    background-image: url("../img/nekmek_bday_incident_20230210161119.png");
 }
 
 .card-group:hover .card {  
