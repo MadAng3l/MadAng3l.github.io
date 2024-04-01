@@ -75,7 +75,7 @@ header h1 {
 }
 
 .big-card:nth-child(2) {
-    background-image: url("https://cdn.discordapp.com/attachments/899678841155497996/1094645000547074078/nekmek.png");
+    background-image: url("../img/nako-easter.png");
     transform: translateX(-10%) rotate(-1deg);
 }
 
