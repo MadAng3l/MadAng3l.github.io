@@ -13,7 +13,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(assets/img/stacked-waves-haikei.svg);
+    background-image: url(/assets/img/stacked-waves-haikei.svg);
     background-size: cover;
     z-index: -1;
 }
@@ -148,9 +148,9 @@ header h1 {
   
 .links {
     display: flex;
+    justify-content: space-between;
     position: absolute;
     bottom: 10px;
-    left: 27%;
     color: #0084ff;
     z-index: 1;
 }
@@ -159,23 +159,16 @@ header h1 {
     width: 200px;
 }
 
+
 .links a {  
     font-size: 80px;
     border-radius: 10px;
-    position: relative; /* Add this line */
-} 
-
-.links a:before { /* Add this block */
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #00ffea;
-    z-index: -1;
+    position: relative;
+    color: #0084ff;
+    z-index: 1;
+    text-decoration: none;
     animation: glow 1.5s infinite alternate;
-    border-radius: 10px; /* Adjust to match the border-radius of links */
+    background-color: #00ffea;
 }
 
 .links a:visited {
